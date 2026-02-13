@@ -1,0 +1,31 @@
+
+.flex-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    /* border: 1px solid red; */
+}
+
+#addNew{
+    margin: 20px 0 20px 0;
+    /* border: 1px solid black; */
+    
+}
+
+#addNew a{
+    margin-left: 690px;
+}
+
+.card{
+    margin:auto;
+    width: 800px;
+}
+
+.card-body{
+    padding: 0;
+}
+
+.card-body table{
+    margin: 0;
+}

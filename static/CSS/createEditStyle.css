@@ -1,0 +1,26 @@
+.flex-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    /* background-color: red; */
+}
+
+.card{
+    margin:auto;
+    margin-top: 20px;
+    width: 800px;
+}
+
+#back{
+    margin-top: 20px;
+    margin-right: 730px;
+}
+
+#submit{
+    margin-left: 670px;
+}
+
+#submit button{
+    font-weight: bolder;
+}
