@@ -36,3 +36,6 @@ You must have the following installed on your machine:
 Open pgAdmin (or your PostgreSQL SQL Shell) and create a new, empty database:
 ```sql
 CREATE DATABASE student_db;
+
+### 3. Clone or Download the Repository
+Download this code to your local machine and open the project folder in your terminal (like VS Code or Command Prompt).
