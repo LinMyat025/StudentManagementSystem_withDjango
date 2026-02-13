@@ -1,6 +1,5 @@
 # Student Management System 🎓
 
-Student Management System 🎓
 A simple, beginner-friendly Web Application built with Python and Django to manage student records. This project demonstrates full CRUD (Create, Read, Update, Delete) operations connected to a PostgreSQL backend database.
 
 🌟 Features
@@ -37,9 +36,7 @@ If you want to download and run this project on your own computer, follow these 
 
 1. Prerequisites
 You must have the following installed on your machine:
-
 Python
-
 PostgreSQL
 
 2. Set up the Database
@@ -76,10 +73,10 @@ DATABASES = {
         'PORT': '5432',
     }
 }
+
 6. Run Migrations
 Generate the database tables in PostgreSQL by running:
 
-Bash
 python manage.py makemigrations
 python manage.py migrate
 7. Start the Server
@@ -88,3 +85,4 @@ Run the local development server:
 Bash
 python manage.py runserver
 Open your web browser and go to http://127.0.0.1:8000/ to use the app!
+
