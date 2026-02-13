@@ -36,9 +36,7 @@ If you want to download and run this project on your own computer, follow these 
 
 1. Prerequisites
 You must have the following installed on your machine:
-
 Python
-
 PostgreSQL
 
 2. Set up the Database
@@ -46,6 +44,7 @@ Open pgAdmin (or your PostgreSQL SQL Shell) and create a new, empty database:
 
 SQL
 CREATE DATABASE student_db;
+
 3. Clone or Download the Repository
 Download this code to your local machine and open the project folder in your terminal (like VS Code or Command Prompt).
 
@@ -75,15 +74,16 @@ DATABASES = {
         'PORT': '5432',
     }
 }
+
 6. Run Migrations
 Generate the database tables in PostgreSQL by running:
 
 Bash
 python manage.py makemigrations
 python manage.py migrate
+
 7. Start the Server
 Run the local development server:
 
-Bash
 python manage.py runserver
 Open your web browser and go to http://127.0.0.1:8000/ to use the app!
