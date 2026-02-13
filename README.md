@@ -52,15 +52,15 @@ Download this code to your local machine and open the project folder in your ter
 4. Create a Virtual Environment & Install Requirements
 It is highly recommended to run this in a virtual environment.
 
-Bash
-# Create the virtual environment
+Create the virtual environment
 python -m venv venv
 
-# Activate it (Windows)
+Activate it (Windows)
 venv\Scripts\activate
 
-# Install the required packages
+Install the required packages
 pip install -r requirements.txt
+
 5. Update Database Settings
 Open the StudentManagement/settings.py file. Scroll down to the DATABASES section and update the 'PASSWORD' field with your own PostgreSQL password:
 
